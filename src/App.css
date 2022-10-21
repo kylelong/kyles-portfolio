@@ -114,10 +114,10 @@ body {
   text-decoration: none;
   color: white;
   margin-right: 10px;
-  font-weight: bold;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 .projectDescription{
   font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
 
 }
