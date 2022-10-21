@@ -1,38 +1,123 @@
+body {
+  background-color: black;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.bioimagecontainer {
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-pack: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}
+.bioimage {
+  display: flex;
+  overflow: hidden;
+  width: 110px;
+  height: auto;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  align-self: center;
+  -webkit-box-flex: 0;
+  flex: 0 auto;
+  border-radius: 100px;
+  background-color: #c4c4c4;
+}
+.bioimagesize {
+  max-width: 110px;
+  min-width: 110px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.intro {
+  color: white;
+  width: 100%;
+  max-width: 500px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  line-height: 23px;
+  padding-left: 10px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  color: #acd59e;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.title {
+  color: #525f7f;
+  font-weight: bold;
+  position: relative;
+  bottom: 42px;
+}
+.navBar {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.navBar {
+  display: flex;
+  flex-direction: row;
+}
+.navBar a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  position: relative;
+  bottom: 50px;
+}
+.navBar a:hover {
+  color: #acd59e;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* projects */
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+
+}
+.projectSectionHeader {
+  color: #acd59e;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.projectTitle {
+  color: #525f7f;
+  font-weight: bold;
+  font-size: 18px;
+}
+.project {
+  color: white;
+  width: 100%;
+  max-width: 500px;
+}
+
+.project a {
+  color: white;
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+.projectDescription{
+  font-family: "Helvetica Neue", Arial, sans-serif;
+
 }
