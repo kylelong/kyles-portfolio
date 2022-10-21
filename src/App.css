@@ -97,7 +97,10 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
-
+.projectLinks{
+  display: flex;
+  flex-direction: row;
+}
 .projectTitle {
   color: #525f7f;
   font-weight: bold;
@@ -113,7 +116,12 @@ body {
 .projectLink:hover {
   color: #acd59e;
 }
-
+.projectLinkTwo{
+  margin-left: 10px;
+}
+.projectLinks a:hover {
+  color: #acd59e;
+}
 
 .project a {
   color: white;
