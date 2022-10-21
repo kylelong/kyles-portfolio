@@ -12,7 +12,7 @@ const Projects = () => {
                     <a href="https://github.com/kylelong/corkedup" target="_blank" rel="noreferrer"className="projectLinkTwo">github</a>
                 </div>
 
-                <p className="projectDescription">Catering to wine lovers: find events, daily flash deals on nice bottles, and recipes for pairiing. 
+                <p className="projectDescription">Catering to wine lovers: find local events, daily flash deals on nice bottles, and recipes for pairiing. 
                     All to enhance your wine drinking experience.
                 </p>
             </div>
