@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from './kyle_long_resume.pdf';
+import resume from './kyle_long_resume.docx.pdf';
 
 const Menu = () => {
     return (

@@ -7,10 +7,12 @@ function App() {
   return (
     <div className="App">
      <Menu />
-     <div className="bioimagecontainer">
-       <div className="bioimage">
-        <img src={headshot} alt="headshot" className="bioimagesize" />
-       </div>
+     <div className="biocontainer">
+      <div className="bioimagecontainer">
+        <div className="bioimage">
+          <img src={headshot} alt="headshot" className="bioimagesize" />
+        </div>
+      </div>
      </div>
      <p className="intro">Ciao, I'm Kyle, a software engineer living in San Francisco, CA. I'm currently searching for fullstack, frontend, and backend engineering roles.
      Feel free to reach out, let's talk! 
