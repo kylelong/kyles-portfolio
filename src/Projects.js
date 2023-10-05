@@ -4,6 +4,23 @@ const Projects = () => {
   return (
     <div className="projectContainer">
       <h3 className="projectSectionHeader">Projects</h3>
+       <div className="project">
+        <p className="projectTitle">Loopy</p>
+        <div className="projectLinks">
+          <a
+            href="https://loopy.fm/"
+            target="_blank"
+            rel="noreferrer"
+            className="projectLink"
+          >
+            website
+          </a>
+        </div>
+
+        <p className="projectDescription">
+          Share and discover music you love
+        </p>
+      </div>
       <div className="project">
         <p className="projectTitle">Blossom</p>
         <div className="projectLinks">
