@@ -90,7 +90,6 @@ body {
 .projectContainer {
   display: flex;
   flex-direction: column;
-
 }
 .projectSectionHeader {
   color: #acd59e;
@@ -98,7 +97,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
-.projectLinks{
+.projectLinks {
   display: flex;
   flex-direction: row;
 }
@@ -117,7 +116,7 @@ body {
 .projectLink:hover {
   color: #acd59e;
 }
-.projectLinkTwo{
+.projectLinkTwo {
   margin-left: 10px;
 }
 .projectLinks a:hover {
@@ -131,8 +130,7 @@ body {
   margin-right: 10px;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
-.projectDescription{
+.projectDescription {
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-weight: bold;
-
 }
