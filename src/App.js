@@ -185,7 +185,7 @@ function App() {
               [ projects ]
             </h1>
             <div className="flex flex-col space-y-2">
-              <a href="https://www.jojo.so" target="_blank">
+              <a href="https://www.jojo.so" rel="noreferrer" target="_blank">
                 <div>
                   <div className="flex flex-row">
                     <img src={jojo} alt="jojo" className="w-7 h-7" />
@@ -198,7 +198,7 @@ function App() {
                   </div>
                 </div>
               </a>
-              <a href="https://www.loopy.fm" target="_blank">
+              <a href="https://www.loopy.fm" rel="noreferrer" target="_blank">
                 <div>
                   <div className="flex flex-row">
                     <img src={loopy} alt="loopy" className="w-7 h-7" />
