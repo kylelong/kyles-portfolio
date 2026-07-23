@@ -1,9 +1,9 @@
 import "./App.css";
 import headshot from "./headshot.jpeg";
-import resume from "./kyle_long_resume.pdf";
-import jojo from "./jojo.png";
-import loopy from "./music.svg";
-import {AcademicCapIcon, BuildingOfficeIcon} from "@heroicons/react/20/solid";
+import resume from "./resume_kyle_long.docx.pdf";
+import jojo from "./jojo.PNG";
+// import loopy from "./music.svg";
+import { AcademicCapIcon, BuildingOfficeIcon } from "@heroicons/react/20/solid";
 const timeline = [
   {
     id: 1,
@@ -39,8 +39,28 @@ const timeline = [
     id: 4,
     content: "Fullstack Software Engineer",
     target: "Academia.edu",
-    href: "#",
+    href: "https://www.academia.edu",
     date: "March 2021 - Oct 2022",
+    datetime: "",
+    icon: BuildingOfficeIcon,
+    iconBackground: "bg-green-500",
+  },
+  {
+    id: 5,
+    content: "Founder",
+    target: "JoJo",
+    href: "https://www.jojo.so",
+    date: "Nov 2023 - Present",
+    datetime: "",
+    icon: BuildingOfficeIcon,
+    iconBackground: "bg-green-500",
+  },
+  {
+    id: 6,
+    content: "Senior Software Engineer",
+    target: "Capital One",
+    href: "#",
+    date: "April 2025 - April 2026",
     datetime: "",
     icon: BuildingOfficeIcon,
     iconBackground: "bg-green-500",
@@ -150,9 +170,11 @@ function App() {
                 />
               </svg>
               <div>
-                <span className="font-bold text-white mr-1">[ running ]</span>
+                <span className="font-bold text-white mr-1">
+                  [ bachata & salsa ]
+                </span>
                 <span className="font-bold text-white mr-1">[ wine ]</span>
-                <span className="font-bold text-white mr-1">[ cello ]</span>
+                <span className="font-bold text-white mr-1">[ travel ]</span>
                 <span className="font-bold text-white mr-1">[ golf ]</span>
               </div>
             </div>
@@ -194,11 +216,11 @@ function App() {
                     </div>
                   </div>
                   <div className="text-white font-bold">
-                    AI conversational language learning
+                    AI Italian language learning companion.
                   </div>
                 </div>
               </a>
-              <a href="https://www.loopy.fm" rel="noreferrer" target="_blank">
+              {/* <a href="https://www.loopy.fm" rel="noreferrer" target="_blank">
                 <div>
                   <div className="flex flex-row">
                     <img src={loopy} alt="loopy" className="w-7 h-7" />
@@ -210,7 +232,7 @@ function App() {
                     Find and share music you love
                   </div>
                 </div>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="mt-2">
@@ -219,7 +241,7 @@ function App() {
             </h1>
             <div className="flow-root">
               <ul className="-mb-8">
-                {timeline.map((event, eventIdx) => (
+                {[...timeline].reverse().map((event, eventIdx) => (
                   <li key={event.id}>
                     <div className="relative pb-8">
                       {eventIdx !== timeline.length - 1 ? (
@@ -233,7 +255,7 @@ function App() {
                           <span
                             className={classNames(
                               event.iconBackground,
-                              "h-8 w-8 rounded-full flex items-center justify-center"
+                              "h-8 w-8 rounded-full flex items-center justify-center",
                             )}
                           >
                             <event.icon
