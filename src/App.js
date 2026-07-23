@@ -73,13 +73,19 @@ function App() {
   return (
     <div className="flex flex-col items-center mx-auto overflow-y-scroll h-screen px-4 sm:px-6 lg:px-8 bg-gray-700">
       <div className="mt-3 flex flex-col items-center">
-        <h1 className="font-bold tracking-wide text-white">
+        <h1 className="font-bold tracking-wide font-gaegu text-3xl text-white">
           kyle alexander long
         </h1>
         <div>
-          <span className="font-bold text-blue-200 mr-2">builder.</span>
-          <span className="font-bold text-blue-200 mr-2">traveler.</span>
-          <span className="font-bold text-blue-200 mr-2">dreamer.</span>
+          <span className="font-bold text-blue-200 mr-2 font-gaegu text-xl">
+            builder.
+          </span>
+          <span className="font-bold text-blue-200 mr-2 font-gaegu text-xl">
+            traveler.
+          </span>
+          <span className="font-bold text-blue-200 mr-2 font-gaegu text-xl">
+            dreamer.
+          </span>
         </div>
         <img src={headshot} className="rounded-full w-28 mt-2" alt="headshot" />
         <div className="mt-2 flex flex-row space-x-2">
@@ -133,7 +139,7 @@ function App() {
         <div className="flex flex-col space-y-2">
           {" "}
           <div>
-            <h1 className="font-bold tracking-wide text-blue-200 my-1">
+            <h1 className="font-gaegu text-2xl font-bold tracking-wide text-blue-200 my-1">
               [ who i am ]
             </h1>
 
@@ -203,7 +209,7 @@ function App() {
             </div>
           </div>
           <div className="flex flex-col">
-            <h1 className="font-bold tracking-wide text-blue-200 my-1">
+            <h1 className="font-bold font-gaegu text-2xl tracking-wide text-blue-200 my-1">
               [ projects ]
             </h1>
             <div className="flex flex-col space-y-2">
@@ -236,7 +242,7 @@ function App() {
             </div>
           </div>
           <div className="mt-2">
-            <h1 className="font-bold tracking-wide text-blue-200  my-1">
+            <h1 className="font-bold font-gaegu text-2xl tracking-wide text-blue-200  my-1">
               [ career ]
             </h1>
             <div className="flow-root">
